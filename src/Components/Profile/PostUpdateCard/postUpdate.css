@@ -1,0 +1,31 @@
+.cardBorder{
+    position: fixed;
+    display: block;
+    z-index: 1;
+    width: 50vh;
+    height: 20vh;
+    margin-left: 80vh;
+    background-color: white;
+    align-items: center;
+    border-style: ridge;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: gray;
+    }
+    .popup_open {  
+        position: absolute;
+        top: 25%;  
+        bottom: 25%;  
+        margin: auto;  
+        border-radius: 20px;  
+        background: white;  
+      }
+      .postcloseButton{
+        cursor:pointer;
+        border-style: solid;
+        border-width: 1vh;
+        border-color: brown;
+        position: fixed;
+        float: right;
+        margin-left: 20vh;
+        }

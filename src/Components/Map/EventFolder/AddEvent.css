@@ -1,0 +1,28 @@
+.AddEventCard{
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;  
+    margin: auto;  
+    position: fixed;
+    width: 50vh;
+    height: fit-content;
+    display: block;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1vh;
+    right: 0vh;
+    z-index: 1;
+    background-color: white;
+}
+.closeButton{
+    display: block;
+    cursor:pointer;
+    border-style: solid;
+    border-width: 1vh;
+    border-color: brown;
+    position: fixed;
+    margin-left: 45vh;
+    margin-bottom: 15vh;
+}

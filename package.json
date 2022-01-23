@@ -1,0 +1,66 @@
+{
+  "name": "myp5jstries",
+  "private": true,
+  "proxy":"https://api.traveler.ismetkizgin.com.tr/",
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "@react-google-maps/api": "^2.7.0",
+    "@react-three/fiber": "^7.0.19",
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/p5": "^1.3.1",
+    "axios": "^0.24.0",
+    "bootstrap": "^5.1.3",
+    "dotenv": "^10.0.0",
+    "google-map-react": "^2.1.10",
+    "google-maps-react": "^2.0.6",
+    "mdb-react-ui-kit": "^2.2.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^2.0.4",
+    "react-datetime-picker": "^3.4.3",
+    "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-modal": "^3.14.4",
+    "react-p5": "^1.3.21",
+    "react-p5-wrapper": "^3.0.2",
+    "react-places-autocomplete": "^7.3.0",
+    "react-redux": "^7.2.6",
+    "react-router": "^6.0.2",
+    "react-router-dom": "^6.0.2",
+    "redux": "^4.1.2",
+    "three": "^0.134.0",
+    "use-between": "^1.0.1",
+    "web-vitals": "^1.1.2"
+  },
+  "devDependencies": {
+    "react-scripts": "4.0.3",
+    "typescript": "^4.4.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

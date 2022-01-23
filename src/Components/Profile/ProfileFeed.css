@@ -1,0 +1,160 @@
+.content{
+   display: inline-block;
+   min-height: 100vh;
+   z-index: 0;
+}
+.content::before{
+    content: ' ';
+    display: block;
+    background-image: url(profile.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: -10;
+    opacity: 0.8;
+}
+.Profile{
+    border: none;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 200vh;
+    min-height: max-content;
+}
+.Profile::before{
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    transform: scaleY(1);
+    transition: all 0.5s;
+    transform-origin: bottom
+}
+.Profile::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 100%;
+    background-color: #800000;
+    transform: scaleY(0);
+    transition: all 0.5s;
+    transform-origin: bottom
+}
+.Profile:hover::after {
+    transform: scaleY(1)
+}
+.ProfilePicHolder{
+    margin:auto;
+    border-radius: 80%;
+    border-color: black;
+    border-width: 2px;
+    border-style: ridge;
+    stroke: black;
+    background-color:RGB(158, 123, 82,0.4);
+    width: 20vh;
+    height: 20vh;
+}
+.deneme{
+    left:90vh;
+    top:0.1vh;
+    position:absolute;
+    border-radius: 80%;
+    border-color: black;
+    border-width: 2px;
+    border-style: ridge;
+    stroke: black;
+    background-color:RGB(158, 123, 82,0.4);
+    width: 20vh;
+    height: 20vh;
+}
+.pickProfile{
+    visibility: hidden;
+    margin-top: 45%;
+}
+.ProfilePicHolder:hover .pickProfile{
+         
+         visibility: visible;
+         color: gray;
+}
+.Nick{
+    margin-left: 0%;
+    text-align: center;
+    font-family:monospace;
+    font-size: 2vh;
+    text-shadow: gray;
+}
+.About-Me-Text{
+    font-family: monospace;
+}
+.feed{
+    margin-left: 50vh;
+    margin-top: 10vh;
+    height:20%;
+    width:50vh;
+}
+
+
+.showPosts{
+    font-family: cursive;
+    width: 100vh;
+    height: 4vh;
+    background-color: transparent;
+    
+}
+.showPosts:hover{
+    background-color: #ADD8E6;
+}
+.addPosts{
+    font-family: cursive;
+    width: 7vh;
+    height:7vh;
+    margin-top:1vh;
+}
+.addPosts:hover{
+    background-color: #ADD8E6;
+}
+.showEvents{
+    font-family: cursive;
+    background-color: transparent;
+    width: 100vh;
+    height: 4vh;
+    
+}
+.showEvents:hover{
+    background-color: #ADD8E6;
+}
+.allthefeed{
+    display: block;
+    align-items: center;
+   min-width: fit-content;
+   
+}
+.events{
+    min-width: fit-content;
+    border-style: ridge;
+    border-color: black;
+    border-width: 3px;
+    min-height: fit-content;
+}
+
+.card{
+    display:inline-block;
+}
+.postsdiv{
+   display: block;
+   color: rgb(117, 15, 15);
+}
+  
+ 

@@ -1,0 +1,22 @@
+.updateCard{
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;  
+    margin: auto;  
+    position: fixed;
+    height: fit-content;
+    display: block;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1vh;
+    right: 0vh;
+    z-index: 5;
+    background-color: white;
+}
+.CardImage{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}

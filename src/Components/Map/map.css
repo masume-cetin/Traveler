@@ -1,0 +1,41 @@
+.map{
+ height: 100vh;
+ width: 200vh;
+}
+.mappy {
+    height: 100vh;
+    width: 150vh;
+    border-style: solid;
+    border-color: black;
+    border-width: 1vh;
+}
+.searchPlaces{
+    height: 100vh;
+    width: 50vh;
+    border-style: solid;
+    border-color: black;
+    border-width: 1vh;
+}
+.location-content{
+    border-style: solid;
+    border-width: 0vh;
+    z-index: 0;
+ }
+
+ .location-content::before{
+     content: ' ';
+     display: block;
+     background-image: url(location.jpg);
+     background-position: center center;
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     height: 100vh;
+     width: 100vw;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     position: fixed;
+     z-index: -10;
+     opacity: 1;
+ }
