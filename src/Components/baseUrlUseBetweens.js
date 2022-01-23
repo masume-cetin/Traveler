@@ -3,8 +3,8 @@ import { useBetween } from "use-between";
 
 
 const BaseUrl = () => {
-    const [baseUrl, setbaseUrl] = useState("https://traveler-serve.herokuapp.com/");
-    const[baseImage,setbaseImage] = useState("https://os.ismetkizgin.com.tr/")
+    const [baseUrl, setbaseUrl] = useState("https://example.com/");
+    const[baseImage,setbaseImage] = useState("https://os.example.tr/")
     
   return {
     baseUrl, 

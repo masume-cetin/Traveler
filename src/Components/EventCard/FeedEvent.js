@@ -96,7 +96,7 @@ const Event = () => {
     return (
       <Card onClick={()=>setid(card.Id)} className="CardBorder" key={card.Id} style={{ width: "18rem" }}>
         
-        <Card.Img className="CardImage" variant="top" src={"https://os.ismetkizgin.com.tr/"+card.ActivityImage}/>
+        <Card.Img className="CardImage" variant="top" src={"https://os.example.com.tr/"+card.ActivityImage}/>
         <Card.Body>
           <Card.Title>{card.ActivityName}</Card.Title>
           <Card.Text>

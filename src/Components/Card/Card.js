@@ -134,7 +134,7 @@ setisRendered(false)
       <Card onClick={()=>setid(card.Id)} className="CardBorder" key={card.Id} style={{ width: "18rem",zIndex:2}}>
         <Button onClick={()=>setisSettingsShown(!isSettingsShown)} style={{display:'flex',float:'right'}}><BsGearFill/></Button>
         {isSettingsShown&&card.Id==id?<ul style={{display:'block',float:'right'}}><li onClick={updatePost}>update</li><li onClick={deletePost}>delete</li></ul>:null}
-        <Card.Img className="CardImage" variant="top" src={"https://os.ismetkizgin.com.tr/"+card.PostImage}/>
+        <Card.Img className="CardImage" variant="top" src={"https://os.example.com.tr/"+card.PostImage}/>
         <Card.Body>
           <Card.Title>{card.PostContent}</Card.Title>
           <Card.Text style={{display:'block'}}>

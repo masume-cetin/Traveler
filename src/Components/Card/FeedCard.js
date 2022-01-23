@@ -107,7 +107,7 @@ const FeedCard = () => {
   const mapData = (card) => {
     return (
       <Card onClick={()=>setid(card.Id)} className="CardBorder" key={card.Id} style={{ width: "18rem",zIndex:2}}>
-        <Card.Img className="CardImage" variant="top" src={"https://os.ismetkizgin.com.tr/"+card.PostImage}/>
+        <Card.Img className="CardImage" variant="top" src={"https://os.example.com.tr/"+card.PostImage}/>
         <Card.Body>
           <Card.Title>{card.PostContent}</Card.Title>
           <Card.Text style={{display:'block'}}>

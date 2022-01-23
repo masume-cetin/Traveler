@@ -108,7 +108,7 @@ const UpdatePostCard=()=>{
       
       
           <label>current image:</label>
-          <Image className="CardImage" variant="top" src={"https://os.ismetkizgin.com.tr/"+PostImage}></Image>
+          <Image className="CardImage" variant="top" src={"https://os.example.tr/"+PostImage}></Image>
           <label>select new image:</label>
           <input onChange={(e)=>convertBase64(e)} type="file" />
        

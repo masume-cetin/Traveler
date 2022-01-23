@@ -93,7 +93,7 @@ const UpdateEventCard=()=>{
       <Form >
       <Form.Group>
           <Form.Label>current image:</Form.Label>
-          <Image className="CardImage" variant="top" src={"https://os.ismetkizgin.com.tr/"+PostImage}></Image>
+          <Image className="CardImage" variant="top" src={"https://os.example.com.tr/"+PostImage}></Image>
           <Form.Label>select new image:</Form.Label>
           <Form.Control onChange={(e)=>convertBase64(e)} type="file" />
         </Form.Group>

@@ -95,7 +95,7 @@ const Event = () => {
       <Card onClick={()=>setid(card.Id)} className="CardBorder" key={card.Id} style={{ width: "18rem" }}>
         <Button onClick={()=>setisSettingsShown(!isSettingsShown)} style={{display:'flex',float:'right'}}><BsGearFill/></Button>
         {isSettingsShown&&card.Id==id?<ul style={{display:'block',float:'right'}}><li onClick={updatePost}>update</li><li onClick={deletePost}>delete</li></ul>:null}
-        <Card.Img className="CardImage" variant="top" src={"https://os.ismetkizgin.com.tr/"+card.ActivityImage}/>
+        <Card.Img className="CardImage" variant="top" src={"https://os.example.tr/"+card.ActivityImage}/>
         <Card.Body>
           <Card.Title>{card.ActivityName}</Card.Title>
           <Card.Text>
